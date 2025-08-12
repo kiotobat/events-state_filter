@@ -1,0 +1,22 @@
+.toolbar {
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar__item {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.toolbar__item:hover {
+  border-color: transparent;
+  outline: 2px solid rgb(0, 115, 255);
+}
+
+.toolbar__item_selected {
+  border-color: transparent;
+  color: #fff;
+  background-color: grey;
+}
